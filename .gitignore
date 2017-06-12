@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+
+# testing
+coverage/
+
+# production
+dist/
+
+# misc
+*.log*
+*.orig
+.env
+.idea/
+
+
+
+
+
+
+

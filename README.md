@@ -1,2 +1,0 @@
-# danhoran-co
-Personal site

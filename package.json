@@ -1,0 +1,33 @@
+{
+  "name": "@danhoran/danhoran-co",
+  "version": "0.0.1",
+  "description": "Personal site",
+  "repository": "git@github.com:danhoran/danhoran-co.git",
+  "author": {
+    "name": "Dan Horan",
+    "email": "dan.horan@me.com"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "build": "node ./scripts/build",
+    "dev": "node ./scripts/dev",
+    "lint": "eslint . --ignore-path ./.gitignore",
+    "start": "node ./scripts/start.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "compression": "1.6.2",
+    "express": "4.15.3"
+  },
+  "devDependencies": {
+    "dotenv": "4.0.0",
+    "eslint": "3.19.0",
+    "eslint-config-airbnb": "15.0.1",
+    "eslint-plugin-import": "2.3.0",
+    "eslint-plugin-jsx-a11y": "5.0.3",
+    "eslint-plugin-react": "7.0.1",
+    "shelljs": "0.7.8"
+  }
+}
